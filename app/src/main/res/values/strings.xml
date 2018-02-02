@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Examen 2º Periodo de  Evaluación</string>
+    <string name="datos_at_micos">DATOS ATÓMICOS</string>
+    <string name="multimedia">MULTIMEDIA</string>
+    <string name="salir">SALIR</string>
+    <string name="el_tiempo">EL TIEMPO</string>
+    <string name="menup">MENU PRINCIPAL</string>
+    <string name="menutiempo">Escoge una localidad:</string>
+    <string name="bilbo">Bilbo-Bilbao</string>
+    <string name="vitoria">Vitoria-Gasteiz</string>
+    <string name="donosti">Donostia San Sebastian</string>
+    <string name="tiempoen">Tiempo actual en:</string>
+    <string name="volver">Volver</string>
+    <string name="introduceelemento">Introduce elemento</string>
+    <string name="binfoelem">Informacion del elemento</string>
+    <string name="elemento">Elemento</string>
+    <string name="elige_un_animal">Elige un animal:</string>
+    <string name="Volver">Volver</string>
+</resources>

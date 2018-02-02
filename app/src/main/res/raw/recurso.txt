@@ -1,0 +1,8 @@
+burro
+caballo
+cabra
+gallina
+gallo
+gato
+oveja
+vaca

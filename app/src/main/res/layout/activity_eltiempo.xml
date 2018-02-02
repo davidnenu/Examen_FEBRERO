@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:text="@string/menutiempo"></TextView>
+
+    <Button
+        android:id="@+id/bbilbo"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bilbo"
+        android:onClick="bilbao"/>
+
+    <Button
+        android:id="@+id/bvitoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vitoria"
+        android:onClick="vitoria"/>
+
+    <Button
+        android:id="@+id/bdonostia"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/donosti"
+        android:onClick="donostia"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:text="@string/tiempoen"
+            android:textSize="24sp"></TextView>
+
+        <TextView
+            android:id="@+id/texttiempoen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:textSize="24sp"
+            tools:text=""></TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewResumenTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></TextView>
+
+    <Button
+        android:id="@+id/bdvolvertiempo"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="@string/volver" />
+
+</LinearLayout>
